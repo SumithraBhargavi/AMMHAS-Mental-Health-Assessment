@@ -10,6 +10,16 @@ The demo showcases the application workflow and the system's machine-learning-ba
 
 ---
 
+## 📄 Published Research
+
+**AMMHAS: An Adaptive Multimodal Framework for Mental Health Assessment with LLM-Based Interpretability**
+
+📚 **DOI:** https://doi.org/10.1109/ICDSAAI69492.2026.11505161
+
+The research presents the AMMHAS framework for multimodal emotion analysis, session-level assessment, and LLM-based human-readable interpretation.
+
+---
+
 ## 📌 Overview
 
 Mental health assessment can be challenging because emotional states are complex, contextual, and difficult to capture using a single source of information.
@@ -43,8 +53,8 @@ The framework separates **emotion prediction from interpretation**, allowing qua
                   │       │        │
                   ▼       ▼        ▼
                Bi-RNN   Bi-GRU   Bi-GRU
-                  │       │        │
-                  └───────┼────────┘
+                  │       │       │
+                  └───────┼───────┘
                           ▼
                  MLP Fusion Network
                           │
